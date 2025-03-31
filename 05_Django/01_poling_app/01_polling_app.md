@@ -24,7 +24,7 @@ myenv\Scripts\activate
 pip install django
 ```
 
-## 5. **Naya Django Project Banao**
+## 5. **Naya Django Project Banao**, PRoject ka naam hai mysite jo ki djangotutorial me bana haii
 ```sh
 django-admin startproject mysite
 ```
