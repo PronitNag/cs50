@@ -84,5 +84,19 @@ urlpatterns = [
 ]
 ```
 
+Iske bad apne project directory me jane ka, matlab **mysite** me jo **url.py** folder me jane ka fir
+path ke sath **include** add karne ka aur, ye line bhi:
+
+```python
+path("polls/", include("polls.urls")),
+```
+
+You have now wired an index view into the URLconf
+
+Now run using the command
+
+```sh
+py manage.py runserver
+```
 
 
