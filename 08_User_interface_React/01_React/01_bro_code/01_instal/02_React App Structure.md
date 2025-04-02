@@ -74,6 +74,7 @@ export default Header;
 
 ### 5️⃣ **Food.jsx (src/Food.jsx)**
 Ek aur component, jo food items dikhayega:
+Notice isme hum logo ne Js ko dynamically add kiya hai with **{}**
 
 ```jsx
 function Food() {
@@ -82,14 +83,14 @@ function Food() {
 
     return(
         <div class="menu">
-        <h1>Food Menu</h1>
-        <div class="item"><strong>Pizza</strong> - $10</div>
-        <div class="item"><strong>Burger</strong> - $5</div>
-        <div class="item"><strong>Pasta</strong> - $8</div>
-        <div class="item"><strong>Salad</strong> - $6</div>
-        <li>{pasta}</li>
-        <li>{salad}</li>
-    </div>
+                <h1>Food Menu</h1>
+                <div class="item"><strong>Pizza</strong> - $10</div>
+                <div class="item"><strong>Burger</strong> - $5</div>
+                <div class="item"><strong>Pasta</strong> - $8</div>
+                <div class="item"><strong>Salad</strong> - $6</div>
+                <li>{pasta}</li>
+                <li>{salad}</li>
+        </div>
     );
 
 export default Food;
