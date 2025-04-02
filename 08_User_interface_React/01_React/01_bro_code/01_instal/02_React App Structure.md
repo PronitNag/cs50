@@ -31,6 +31,29 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 ```
 
 👉 Yahan `createRoot(document.getElementById("root"))` `index.html` me diye gaye `root` div ko pakadta hai aur `App` component ko uske andar render kar deta hai.
+# React Code Explanation (Point-wise)
+
+## **1. `ReactDOM.createRoot(document.getElementById("root"))`**
+   - **React 18 ka naya syntax** hai jo **root element create** karta hai.
+   - `document.getElementById("root")` se **HTML ke `id="root"` wale element ko select** kiya jata hai.
+   - `createRoot()` React ka **concurrent rendering** system enable karta hai, jo **performance improve** karta hai.
+
+## **2. `.render(...)`**
+   - **Root element pe React component render** karta hai.
+   - Iske andar diya gaya **JSX (React components)** browser me show hoga.
+
+## **3. `<StrictMode>`**
+   - **React ka built-in component** hai jo **development mode** me extra warnings show karta hai.
+   - Yeh **unsafe lifecycle methods detect** karta hai aur **potential issues highlight** karta hai.
+   - **Production build** me iska koi effect nahi hota.
+
+## **4. `<App />`**
+   - **Main component** hai jo pura **application handle** karega.
+   - Iske andar aur bhi multiple **components ho sakte hain**.
+
+## **💡 Summary**
+Ye code **React 18 ka standard method** hai kisi bhi React app ko render karne ke liye. Yeh `App` component ko `"root"` div ke andar inject karta hai aur `StrictMode` se debugging ko aur better banata hai. 🚀
+
 
 ---
 
