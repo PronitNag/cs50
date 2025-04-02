@@ -28,7 +28,56 @@ javascript executes outside web browser, so download node
 - Lot of 3rd party implementations are required
 
 # Q) what are the steps needed to download and run react?
+## 1- To start programming with React, you'll need to have three things:
 
+- A web browser
+- A code editor
+- Node.js
+
+ ## 2 - Open command prompt on your PC and test
+
+		C:\> node  -v				
+		C:\> npm  -v
+
+	Note: Make sure that you have the latest version of Node 20x & Npm 10x.
+
+## 3. Download extensions of VS Code
+
+		a) Live Server
+		b) vscode-icons
+		c) IntelliSense for CSS class names in HTML
+		d) ESLint
+  
+# 4. Create a folder named Website and open with VS code, then go to hamburger menu and open terminal
+
+In the terminal type
+
+```sh
+npm create vite@latest
+```
+
+```plaintext
+Ok to proceed? (y) y
+│
+◇  Project name:
+│  my-react-app
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  JavaScript
+│
+◇  Scaffolding project in M:\Website\my-react-app...
+│
+└  Done. Now run:
+
+  cd my-react-app
+  npm install
+  npm run dev
+```
+
+Remember **npm run dev** is to kick start the server
 
 
 
