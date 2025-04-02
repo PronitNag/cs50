@@ -92,5 +92,6 @@ Remember **npm run dev** is to kick start the server
 | `.gitignore`       | Configures the resources to ignore while publishing to GIT. |
 | `README.md`        | Contains help documentation. |
 
-
-
+# WHat are the files that we need to delete in the file?
+# How do we run a server in react?
+# what are the basic step to build a component in react?
