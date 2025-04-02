@@ -77,14 +77,20 @@ Ek aur component, jo food items dikhayega:
 
 ```jsx
 function Food() {
-  return (
-    <ul>
-      <li>Pizza</li>
-      <li>Burger</li>
-      <li>Pasta</li>
-    </ul>
-  );
-}
+    const pasta = "Pasta";
+    const salad = "Salad";
+
+    return(
+        <div class="menu">
+        <h1>Food Menu</h1>
+        <div class="item"><strong>Pizza</strong> - $10</div>
+        <div class="item"><strong>Burger</strong> - $5</div>
+        <div class="item"><strong>Pasta</strong> - $8</div>
+        <div class="item"><strong>Salad</strong> - $6</div>
+        <li>{pasta}</li>
+        <li>{salad}</li>
+    </div>
+    );
 
 export default Food;
 ```
