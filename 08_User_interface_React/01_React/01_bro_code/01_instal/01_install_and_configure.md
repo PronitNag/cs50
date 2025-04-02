@@ -28,27 +28,27 @@ javascript executes outside web browser, so download node
 - Lot of 3rd party implementations are required
 
 # Q) what are the steps needed to download and run react?
-## 1- To start programming with React, you'll need to have three things:
+#### 1- To start programming with React, you'll need to have three things:
 
 - A web browser
 - A code editor
 - Node.js
 
- ## 2 - Open command prompt on your PC and test
+ #### 2 - Open command prompt on your PC and test
 
 		C:\> node  -v				
 		C:\> npm  -v
 
 	Note: Make sure that you have the latest version of Node 20x & Npm 10x.
 
-## 3. Download extensions of VS Code
+#### 3. Download extensions of VS Code
 
 		a) Live Server
 		b) vscode-icons
 		c) IntelliSense for CSS class names in HTML
 		d) ESLint
   
-# 4. Create a folder named Website and open with VS code, then go to hamburger menu and open terminal
+#### 4. Create a folder named Website and open with VS code, then go to hamburger menu and open terminal
 
 In the terminal type
 
@@ -79,6 +79,18 @@ Ok to proceed? (y) y
 
 Remember **npm run dev** is to kick start the server
 
+# what is the Project structure in react?
+#### Project Structure
+
+| File / Folder       | Description |
+|---------------------|-------------|
+| `public`           | Contains static resources like HTML, images, docs, etc. |
+| `src`              | Contains dynamic resources like SCSS, CSS, JS, JSX, TS, TSX, etc. |
+| `node_modules`     | Contains all external library files and packages installed using NPM package manager. |
+| `package.json`     | Contains project meta data. contained in key value pair|
+| `package-lock.json` | Contains complete dependencies list that are used for the project. |
+| `.gitignore`       | Configures the resources to ignore while publishing to GIT. |
+| `README.md`        | Contains help documentation. |
 
 
 
