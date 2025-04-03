@@ -1,3 +1,4 @@
+``` sql
 -- Ye query employees table ko update, retrieve aur delete kar rahi hai.
 
 -- Step 1: Employee ka hourly_pay update karna
@@ -14,4 +15,4 @@ WHERE employee_id = 6;
 
 -- Step 4: Pura employees table dikhana taaki delete ka effect check ho sake
 SELECT * FROM employees;
-
+```
