@@ -44,11 +44,22 @@ class Choice(models.Model):
 
 # Remember the three-step guide to making model changes:
 
-- Change your models (in models.py).
+### 1 Change your models (in models.py).
 
-- Run **python manage.py makemigrations** to create migrations for those changes
-- Run **python manage.py migrate** to apply those changes to the database.
+### 2 Run **python manage.py makemigrations** to create migrations for those changes
+  ```text
+  By running makemigrations, you’re telling Django that you’ve made some changes to your models (in this case, you’ve made new ones) 
+  and that you’d like the changes to be stored as a migration
+  ```
 
-# to invoke the Python shell, use this command:
+### 3 Run **python manage.py migrate** to apply those changes to the database.
+  ```text
+   To make migrations create those model tables in your database. The migrate command takes all the migrations that haven’t been applied
+   (Django tracks which ones are applied using a special table in your database called django_migrations)
+   and runs them against your database - essentially,
+   synchronizing the changes you made to your models with the schema in the database.
+  ```
+
+### to invoke the Python shell, use this command:
 
 $ python manage.py shell
