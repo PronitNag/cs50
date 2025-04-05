@@ -46,13 +46,13 @@ class Choice(models.Model):
 
 ### 1 Change your models (in models.py).
 
-### 2 Run **python manage.py makemigrations** to create migrations for those changes
+### 2 Run [**python manage.py makemigrations**] to create migrations for those changes
   ```text
   By running makemigrations, you’re telling Django that you’ve made some changes to your models (in this case, you’ve made new ones) 
   and that you’d like the changes to be stored as a migration
   ```
 
-### 3 Run **python manage.py migrate** to apply those changes to the database.
+### 3 Run [**python manage.py migrate**] to apply those changes to the database.
   ```text
    To make migrations create those model tables in your database. The migrate command takes all the migrations that haven’t been applied
    (Django tracks which ones are applied using a special table in your database called django_migrations)
@@ -63,3 +63,25 @@ class Choice(models.Model):
 ### to invoke the Python shell, use this command:
 
 $ python manage.py shell
+
+
+# 🛠️ Django Models to Database: Step-by-Step Flow
+
+This table explains how changes in Django models are translated into database updates.
+
+| Step | Description                          | Command                        | Output/Effect                                                 |
+|------|--------------------------------------|--------------------------------|----------------------------------------------------------------|
+| 1️⃣   | **Update Models**                   | _No command_                   | Modify `models.py` (add/edit/delete fields or models).         |
+| 2️⃣   | **Create Migrations**               | `python manage.py makemigrations` | Creates migration files (in `migrations/` folder) based on model changes. |
+| 3️⃣   | **Apply Migrations to Database**    | `python manage.py migrate`     | Executes the migration files to update the actual database.   |
+
+---
+
+## 🧠 Summary (Analogy)
+
+| Part                | Like in Real Life                     |
+|---------------------|----------------------------------------|
+| `models.py`         | Blueprint / Design of the building     |
+| `makemigrations`    | Approval of blueprint / Planning phase |
+| `migrate`           | Construction of the building (actual DB update) |
+
