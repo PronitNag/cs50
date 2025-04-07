@@ -1,0 +1,15 @@
+GIT is a command line tool that will help us with version control in several different ways:
+
+1->Allowing us to keep track of changes we make to our code by saving snapshots of our code at a given point in time.
+Changing File
+
+2->Allowing us to easily synchronize code between different people working on the same project by allowing multiple people to pull information from and push information to a repository stored on the web.
+Multiple Users
+
+3->Allowing us to make changes to and test out code on a different branch without altering our main code base, and then merging the two together.
+
+4->Allowing us to revert back to earlier versions of our code if we realize we’ve made a mistake.
+
+
+In the above explanations, we used the word repository, which we haven’t explained yet.
+A Git repository is a file location where we’ll store all of the files related to a given project. These can either be remote (stored online) or local (stored on your computer).
