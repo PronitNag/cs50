@@ -47,3 +47,50 @@ It covers topics in trends  and large-scale system design.
 ```
 
 
+
+
+
+```text
+Hey there! Have you ever been stuck, not sure whether to use git merge,
+ git rebase, or squash your commits?
+ Trust me, you're not the only one! Today, we're going to tackle these sometimes  puzzling Git topics.
+ We'll break down the key differences between these Git commands  and when to use each for our workflow. If you've ever worked on a Git  project with a bunch of branches, you've probably had to figure out how to  get changes from a feature branch back into the main branch, or keep your feature  branch up to date with the main branch.
+
+The big question is, should we use  git merge, git rebase, or squash our commits? Let's pull back the curtain and  see what's really going on with each one. Main content So, let's say we've created a  new feature branch from main. We've added commits A, B,  and C on the feature branch. At the same time, the main  branch has added commits D and E. Picture it like two branches of a  tree, growing in different directions. Keeping our feature branch up to  date with main is a crucial part of the Git workflow. We can do this  with either git merge or git rebas2
+
+Here's what that means: “git merge” pulls in the latest changes  from main into the feature branch,
+creating a new "merge commit" in the process. It's  like tying the two branches together with a knot.
+“git rebase” changes the base of our  feature branch to the latest commit on main and then replays our changes from there.
+It gives us a clean, straightforward  commit history, which many people prefer. Now, once we've finished developing the feature,
+we'll want to get the feature  branch back into the main branch.
+
+
+We have a few options for this: First is Git Merge. Git will  create a new "merge commit" that ties together the histories of both branches.
+ It's like creating a knot in the rope  that shows where the branches joined. But if we do this a lot,
+ we end up with lots of  knots, which can make the history a bit messy. Another option is “Git Rebase and Fast-Forward  Merge”.
+ We can use git rebase to move our feature branch's changes onto the tip of main,  and then perform a fast-forward merge.
+ This is like straightening out  the rope so it's all in one line.
+
+
+Squash Commits: With squashing, all the feature branch commits are squeezed  into a single commit when merged into main
+This keeps main's history linear like rebasing,  while still creating a single merge commit. But remember,
+ we lose the fine  details of individual feature commits in the main branch's commit history.
+ That said, squashing commits is a  popular strategy on platforms like GitHub because it allows us to tidy up  history in the main branch while still preserving the detailed commit  history in the feature branch.
+
+
+It's a kind of a hybrid approach! Before we wrap up, I'd love to know -
+have you used these strategies before? Which one do you prefer and why?
+ Let's  have a discussion in the comments below! Summary: To sum it up, “git merge”
+ gives us a complete picture of the commit history and branch evolution. “Git rebase” tidies up history by
+  moving commits to the main branch tip. Squashing commits consolidates  commits into one, providing a clean, linear history in the main branch but  at the cost of detailed commit history.
+
+Now, imagine a scenario where  the team values a clean,
+ straightforward history but doesn't mind  losing the detailed history of individual commits within the main branch.
+ In this case,  squashing commits might be the way to go. But remember,
+ it's all about  assessing the pros and cons and deciding which workflow makes
+the  most sense for the team. There's no one-size-fits-all approach - it all  comes down to what you value most. If you like our videos, you may like our system  design newsletter as well. It covers topics and
+
+trends in large-scale system design. Trusted by  450,000 readers. Subscribe at blog.bytebytego.com
+```
+
+
