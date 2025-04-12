@@ -69,3 +69,12 @@ To be considered a **framework**, React would need:
 > ✅ To do anything beyond the UI layer, we usually need to bring in **additional libraries**.
 
 ---
+
+# Other Things in React
+
+| Feature               | Description                    |
+|-----------------------|--------------------------------|
+| One-way Data Binding  | Ensures unidirectional flow of data |
+| JSX                   | JavaScript XML – syntax extension for JavaScript |
+| Virtual DOM Support   | React uses a virtual DOM for efficient rendering |
+| Rendering Process     | Optimized rendering using diffing algorithm |
