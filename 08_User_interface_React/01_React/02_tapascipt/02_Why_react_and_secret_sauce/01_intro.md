@@ -1,52 +1,71 @@
-# what is react?
+# What is React?
 
--React is a declarative,Component-based,javascript-library for building user-interface
+**React** is a **declarative**, **component-based**, **JavaScript library** for building **user interfaces**.
 
-## what is declarative?
+---
 
--In declarative programming, you describe what you want to do but do not specify how it is done
+## What is Declarative?
 
-## what is Imperative?
+In **declarative programming**, you describe **what** you want to do but do **not specify how** it is done.
 
--In Imperative programming, we decribe what we want to doby specifying all the instruction on how to do it.
+---
 
-## But how can we prove that React is declarative?
+## What is Imperative?
 
-**Notice** that we don't have any ul elements in the jsx but how is is apperaring, and there is no getelemmentbyId(),
-In short it is doing **DOMmanipulation** by itself, it can be said that is layer of abstraction so that we can think of the bussiness logic
+In **imperative programming**, you describe **what** you want to do **by specifying all the instructions** on **how** to do it.
 
-## What is a component?
+---
 
-- A component is an isolated unit which has all this logic,presentation logic  and Api integration within itself
-- Which means one componenet can be developed, tested, in isolation from another component
-- and multiple component can get together, integrated and perform testing
+## But how can we prove that React is Declarative?
 
-- the advantage is that each person can work on their own compoenent
+**Notice**:
+- We don't have any `<ul>` elements in the JSX.
+- There is no use of `getElementById()`.
+
+Yet, the list appears in the UI.
+
+This means React handles **DOM manipulation** by itself — it provides a **layer of abstraction** so that developers can focus on the **business logic**.
+
+---
+
+## What is a Component?
+
+A **component** is an **isolated unit** that contains:
+
+- Logic  
+- Presentation logic  
+- API integration  
+
+### Benefits:
+
+- One component can be **developed** and **tested** in isolation.
+- Multiple components can be **integrated** and tested together.
+- Each developer can work independently on their own component.
 
 ![component](https://github.com/user-attachments/assets/409018c2-a7ee-4ae7-b60d-a9c8c94fa63b)
 
-we also place focus of the herarchy of component
+We also pay attention to the **hierarchy** of components.
 
-## Why is react a library not a framework?
+---
 
-library foucs on one thing whereas , framework does multiple things
+## Why is React a Library, Not a Framework?
 
-react was made to solve single page interface problem in development
+A **library** focuses on **one thing**.  
+A **framework** handles **multiple aspects** of an application.
 
-to be a framework it need to have a few more things
+React was created to solve **single-page interface** development problems.
 
-The Things are:
-1-Theming
-2-Routing(Inbuild Routing)
-3-testing(Inbuild testing)
-4- Data fecthing(we use axios)
-5- Build(web pack, parcel)
-6- State management(Redux)
-7- Notifications
-8- anything Practically 
+To be considered a **framework**, React would need:
 
-for doing anything we need to bring in additional library
+1. Theming  
+2. Inbuilt Routing  
+3. Inbuilt Testing  
+4. Data Fetching (we use libraries like `axios`)  
+5. Build Tools (e.g., `webpack`, `parcel`)  
+6. State Management (e.g., `Redux`)  
+7. Notifications  
+8. And more...
 
+> ✅ To do anything beyond the UI layer, we usually need to bring in **additional libraries**.
 
-
-
+---
