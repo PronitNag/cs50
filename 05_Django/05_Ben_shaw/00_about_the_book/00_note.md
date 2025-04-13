@@ -16,6 +16,8 @@ urlpatterns = [
     path('', reviews.views.index)
 ]
 
+```
+
 ## rule 3
 
  In cases where inputting and executing some code gives an immediate output, 
