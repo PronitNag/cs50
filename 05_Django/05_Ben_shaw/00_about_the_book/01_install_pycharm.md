@@ -48,5 +48,6 @@ Agar Python already installed hai tumhare laptop mein, to neeche diye gaye steps
 
 ---
 
+pycharm [https://www.youtube.com/watch?v=YagM_FuPLQU]
 
-
+pycharm [https://www.youtube.com/playlist?list=PLCTHcU1KoD98IeuVcqJ2rt1FNytfR_C90]
