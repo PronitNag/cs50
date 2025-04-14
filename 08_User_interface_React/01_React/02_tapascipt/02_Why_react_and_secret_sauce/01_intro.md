@@ -42,7 +42,8 @@ A **component** is an **isolated unit** that contains:
 - Multiple components can be **integrated** and tested together.
 - Each developer can work independently on their own component.
 
-![component](https://github.com/user-attachments/assets/409018c2-a7ee-4ae7-b60d-a9c8c94fa63b)
+![component](https://github.com/user-attachments/assets/ef1d8586-db9e-4a49-af6d-1a1fff1583b1)
+
 
 We also pay attention to the **hierarchy** of components.
 
