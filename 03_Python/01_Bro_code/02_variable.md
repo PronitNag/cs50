@@ -39,7 +39,7 @@ print(type(age))  # <class 'int'>
 
 ## 📌 3. Float
 
-Float matlab numbers jinmein decimal point ho.
+Float matlab numbers jinmein decimal point ho., floating point number
 
 ```python
 price = 99.99
