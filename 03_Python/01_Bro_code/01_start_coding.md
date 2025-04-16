@@ -1,4 +1,4 @@
-#Lesson 1: Introduction
+Lesson 1: Introduction
 
 ```python
 print('I started learning Python')
