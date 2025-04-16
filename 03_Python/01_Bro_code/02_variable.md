@@ -63,6 +63,14 @@ print(is_student)
 print(type(is_student))  # <class 'bool'>
 ```
 
+```python
+is_student = False
+if is_student:
+  print("You are a student")
+else:
+  print("You are not a student")
+```
+
 ---
 
 ## ℹ️ Extra Info
