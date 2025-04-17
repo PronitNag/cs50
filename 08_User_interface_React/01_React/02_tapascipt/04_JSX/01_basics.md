@@ -1,7 +1,7 @@
 # ReactJS aur JSX Guide in Hinglish
 
 ## 1. Introduction
-ReactJS ek JavaScript library hai jo interactive UI banane ke kaam aati hai. Iska main focus components pe hota hai, jisse reusability aur maintainability badh jati hai. JSX React ka ek extension hai jo JavaScript ke andar HTML jaise syntax ko allow karta hai.
+Jsx means Javascript XML which allows to write HTML code inside JS file
 
 ## 2. Basics of JSX. What it is and How to Use it?
 JSX ek syntax extension hai jo JavaScript ke andar HTML likhne ki suvidha deta hai. Yeh React ke components ko define karne mein help karta hai.
